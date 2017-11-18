@@ -13,6 +13,11 @@ class MainController extends Controller
 
     public function homepage()
     {
-        return view('main');
+        return view('home');
+    }
+
+    public function furry()
+    {
+        return view('furry');
     }
 }

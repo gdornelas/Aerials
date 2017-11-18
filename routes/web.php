@@ -16,3 +16,4 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('home', 'MainController@homepage');
+$router->get('furry', 'MainController@furry');
