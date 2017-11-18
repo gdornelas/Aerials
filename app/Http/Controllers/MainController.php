@@ -16,6 +16,24 @@ class MainController extends Controller
         return view('home');
     }
 
+    public function origin()
+    {
+        return view('origin');
+    }
+
+
+    public function undestanding()
+    {
+        return view('undestanding');
+    }
+
+
+    public function analitics()
+    {
+        return view('analitics');
+    }
+
+
     public function furry()
     {
         return view('furry');

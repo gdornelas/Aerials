@@ -16,4 +16,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('home', 'MainController@homepage');
+$router->get('analitics', 'MainController@analitics');
+$router->get('origin', 'MainController@origin');
+$router->get('understanding', 'MainController@undestanding');
 $router->get('furry', 'MainController@furry');

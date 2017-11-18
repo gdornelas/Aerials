@@ -32,28 +32,8 @@
     </div>
 </div>
 <!-- end preloader -->
-
 <!-- start header -->
 <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-12">
-                <p><i class="fa fa-phone"></i><span> Phone</span>010-020-0340</p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-12">
-                <p><i class="fa fa-envelope-o"></i><span> Email</span><a href="#">awesome@company.com</a></p>
-            </div>
-            <div class="col-md-5 col-sm-4 col-xs-12">
-                <ul class="social-icon">
-                    <li><span>Meet us on</span></li>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-instagram"></a></li>
-                    <li><a href="#" class="fa fa-apple"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </header>
 <!-- end header -->
 
@@ -66,16 +46,15 @@
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Awesome</a>
+            <a href="#" class="navbar-brand">Aerials</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#top">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#team">TEAM</a></li>
-                <li><a href="#service">SERVICE</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#top">INÍCIO</a></li>
+                <li><a href="#about">SOBRE</a></li>
+                <li><a href="#team">EQUIPE</a></li>
+                <li><a href="#service">O PROJETO</a></li>
+                <li><a href="#portfolio">UTILIZAÇÃO</a></li>
             </ul>
         </div>
     </div>
@@ -87,13 +66,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-2 col-md-8">
-                <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">We make templates that are <span>awesome</span></h1>
+                <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Nós analisamos tráfego aéreo de uma forma<span> incrível</span></h1>
                 <div class="element">
-                    <div class="sub-element">Hello, this is Typed.js</div>
-                    <div class="sub-element">Awesome Template is provided by templatemo.com website for everyone</div>
-                    <div class="sub-element">Download, edit and apply this awesome template for your websites</div>
+                    <div class="sub-element">Bem vindo ao Aerials!</div>
+                    <div class="sub-element">Dados fornecidos diretamente pela RITA.</div>
+                    <div class="sub-element">Entenda o tráfego aéreo global através de nossas análises especializadas.</div>
                 </div>
-                <a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET STARTED</a>
+                <a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">COMECE AQUI</a>
             </div>
         </div>
     </div>
@@ -105,7 +84,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">WE ARE <span>AWESOME</span></h2>
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">SOBRE <span>AERIALS</span></h2>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
                 <div class="media">
@@ -113,10 +92,10 @@
                         <div class="media-object pull-left">
                             <i class="fa fa-mobile"></i>
                         </div>
-                        <h3 class="media-heading">FULLY RESPONSIVE</h3>
+                        <h3 class="media-heading">DADOS OFICIAIS</h3>
                     </div>
                     <div class="media-body">
-                        <p>Awesome responsive template is provided by <a rel="nofollow" href="http://www.templatemo.com" target="_parent">templatemo</a> website. This is Bootstrap v3.3.2 layout built on HTML5 CSS3. You can use this for any purpose. Please tell your friends about it.</p>
+                        <p>Aerials utiliza dados fornecidos de forma aberta pelo RITA, contendo um banco com mais de 20 milhões de entradas sobre vôos no mundo todo.</p>
                     </div>
                 </div>
             </div>
@@ -126,10 +105,11 @@
                         <div class="media-object pull-left">
                             <i class="fa fa-comment-o"></i>
                         </div>
-                        <h3 class="media-heading">FREE SUPPORT</h3>
+                        <h3 class="media-heading">RESULTADOS SIGNIFICATIVOS</h3>
                     </div>
                     <div class="media-body">
-                        <p>Credits go to <a rel="nofollow" href="http://pixabay.com">Pixabay</a> for homepage image and <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for portfolio images. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+                        <p>Graças ao um banco extremamente grande e completo, Aerials consegue obter resultados significativos em suas buscas, permitindo análise de diversos fatores
+                        do sistema áereo internacional.</p>
                     </div>
                 </div>
             </div>
@@ -139,10 +119,11 @@
                         <div class="media-object pull-left">
                             <i class="fa fa-html5"></i>
                         </div>
-                        <h3 class="media-heading">HTML5 &AMP; CSS3</h3>
+                        <h3 class="media-heading">ANÁLISE PERSONALIZADA</h3>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet.</p>
+                        <p>Através de gráficos e mapas, Aerials consegue fornecer o resultados das buscas no banco de forma intuitiva e de fácil interpretação, permitindo uma análise
+                        sucinta acerca das possibilidades de utilização.</p>
                     </div>
                 </div>
             </div>
@@ -156,14 +137,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> TEAM</h2>
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">EQUIPE<span> AERIALS</span></h2>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
                 <div class="team-wrapper">
                     <img src="images/team-img1.jpg" class="img-responsive" alt="team img 1">
                     <div class="team-des">
-                        <h4>TRACY</h4>
-                        <span>Designer</span>
+                        <h4>GUSTAVO DORNELAS</h4>
+                        <span>Computer Scientist</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
@@ -172,8 +153,8 @@
                 <div class="team-wrapper">
                     <img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
                     <div class="team-des">
-                        <h4>MARY</h4>
-                        <span>Developer</span>
+                        <h4>LUCAS CORDEIRO</h4>
+                        <span>Computer Scientist</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
@@ -182,8 +163,8 @@
                 <div class="team-wrapper">
                     <img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
                     <div class="team-des">
-                        <h4>JULIA</h4>
-                        <span>Director</span>
+                        <h4>THOMAZ CUBER</h4>
+                        <span>Computer Scientist</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
@@ -192,8 +173,8 @@
                 <div class="team-wrapper">
                     <img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
                     <div class="team-des">
-                        <h4>LINDA</h4>
-                        <span>Manager</span>
+                        <h4>VITOR ARAUJO</h4>
+                        <span>Random Dude</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
@@ -208,22 +189,22 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">OUR <span>AWESOME</span> THINGS</h2>
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">O PROJETO <span>AERIALS</span></h2>
             </div>
             <div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                 <i class="fa fa-laptop"></i>
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+                <h4><a href="{{ url('origin') }}">Origem</a></h4>
+                <p>Entenda a origem dos dados, a importância dos mesmos e seus usos, o que pode ser feito com tamanho banco? </p>
             </div>
             <div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
                 <i class="fa fa-cloud"></i>
-                <h4>Cloud Computing</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+                <h4><a href="{{ url('understanding') }}">Entendimento</a></h4>
+                <p>Entenda melhor a organização do banco através de diagramas entidade-relacionamento (ER) e modelos lógicos.</p>
             </div>
             <div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                 <i class="fa fa-cog"></i>
-                <h4>UX Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. Adipiscing vitae vel quam proin eget mauris eget. Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</p>
+                <h4><a href="{{ url('analitics') }}">Análise e Interpretação</a></h4>
+                <p>Uma demonstração da utilização dos dados para melhoria de serviços e análise de oportunidades, através de mecanismos de vizualização.</p>
             </div>
         </div>
     </div>
@@ -235,85 +216,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> PORTFOLIO</h2>
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">UTILIZE<span> AERIALS</span></h2>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
-                    <div class="portfolio-overlay">
-                        <h4>Project One</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
+            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
+                <div class="media">
+                    <div class="media-heading-wrapper">
+                        <h3 class="media-heading">SEJA VOCÊ MESMO O ANALISTA</h3>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
-                    <div class="portfolio-overlay">
-                        <h4>Project Two</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
-                    <div class="portfolio-overlay">
-                        <h4>Project Three</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
-                    <div class="portfolio-overlay">
-                        <h4>Project Four</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img 3">
-                    <div class="portfolio-overlay">
-                        <h4>Project Five</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img 4">
-                    <div class="portfolio-overlay">
-                        <h4>Project Six</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img 1">
-                    <div class="portfolio-overlay">
-                        <h4>Project Seven</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="portfolio-thumb">
-                    <img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img 2">
-                    <div class="portfolio-overlay">
-                        <h4>Project Eight</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget dia.</p>
-                        <a href="#" class="btn btn-default">DETAIL</a>
+                    <div class="media-body">
+                        <p>Descubra a informação que precisa! Utilize nosso banco para fazer suas pesquisas diretamente através de linguagem SQL!
+                            Monte gráficos usandos as informações pesquisadas e analise os resultados.</p>
                     </div>
                 </div>
             </div>
@@ -322,54 +234,13 @@
 </section>
 <!-- end portfolio -->
 
-<!-- start contact -->
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>AWESOME</span></h2>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
-                <form action="#" method="post">
-                    <label>NAME</label>
-                    <input name="fullname" type="text" class="form-control" id="fullname">
-
-                    <label>EMAIL</label>
-                    <input name="email" type="email" class="form-control" id="email">
-
-                    <label>MESSAGE</label>
-                    <textarea name="message" rows="4" class="form-control" id="message"></textarea>
-
-                    <input type="submit" class="form-control">
-                </form>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
-                <address>
-                    <p class="address-title">OUR ADDRESS</p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie.</span>
-                    <p><i class="fa fa-phone"></i> 010-020-0340</p>
-                    <p><i class="fa fa-envelope-o"></i> awesome@company.com</p>
-                    <p><i class="fa fa-map-marker"></i> 663 New Walk Roadside, Birdeye View, GO 11020</p>
-                </address>
-                <ul class="social-icon">
-                    <li><h4>WE ARE SOCIAL</h4></li>
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-instagram"></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end contact -->
-
 <!-- start copyright -->
 <footer id="copyright">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
-                    Copyright &copy; 2084 Company Name</p>
+                    Copyright &copy; 2017 Aerials by Amazing Analytics</p>
             </div>
         </div>
     </div>

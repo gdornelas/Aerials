@@ -335,6 +335,14 @@ header .social-icon li a
 		padding-top: 10px;
 		padding-bottom: 14px;
 	}
+
+.linker
+{
+	color: #28a7e9;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 14px;
+}
 /* end service */
 
 /* start portfolio */
