@@ -1,4 +1,3 @@
-@extends('footer')
 <html>
 <head>
     <meta charset="utf-8">
@@ -70,7 +69,7 @@
                 <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Nós analisamos tráfego aéreo de uma forma<span> incrível</span></h1>
                 <div class="element">
                     <div class="sub-element">Bem vindo ao Aerials!</div>
-                    <div class="sub-element">Dados fornecidos diretamente pela RITA.</div>
+                    <div class="sub-element">Dados fornecidos diretamente pelo RITA.</div>
                     <div class="sub-element">Entenda o tráfego aéreo global através de nossas análises especializadas.</div>
                 </div>
                 <a data-scroll href="#about" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">COMECE AQUI</a>
@@ -234,5 +233,17 @@
     </div>
 </section>
 <!-- end portfolio -->
+<!-- start copyright -->
+<footer id="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                    Copyright &copy; 2017 Aerials by Amazing Analytics</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end copyright -->
 </body>
 </html>

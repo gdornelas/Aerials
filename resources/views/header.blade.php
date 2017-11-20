@@ -53,7 +53,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ url('home') }}">INÍCIO</a></li>
                 <li><a href="{{ url('origin') }}">SOBRE</a></li>
-                <li><a href="{{ url('undestanding') }}">O BANCO</a></li>
+                <li><a href="{{ url('understanding') }}">O BANCO</a></li>
                 <li><a href="{{ url('analitics') }}">ANÁLISES</a></li>
                 <li><a href="{{ url('yourself') }}">UTILIZAÇÃO</a></li>
             </ul>
