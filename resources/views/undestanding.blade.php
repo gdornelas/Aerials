@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Awesome Responsive Template</title>
+    <title>Aerials: O Banco</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -39,7 +39,7 @@
 <!-- end header -->
 
 <!-- start navigation -->
-<nav class="navbar navbar-default templatemo-nav" role="navigation">
+<nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -47,36 +47,32 @@
                 <span class="icon icon-bar"></span>
                 <span class="icon icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Aerials</a>
+            <a href="{{ url('home') }}" class="navbar-brand">Aerials</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#top">INÍCIO</a></li>
-                <li><a href="#about">SOBRE</a></li>
-                <li><a href="#team">EQUIPE</a></li>
-                <li><a href="#service">O PROJETO</a></li>
-                <li><a href="#portfolio">UTILIZAÇÃO</a></li>
+                <li><a href="{{ url('home') }}">INÍCIO</a></li>
+                <li><a href="{{ url('origin') }}">SOBRE</a></li>
+                <li><a href="{{ url('understanding') }}">O BANCO</a></li>
+                <li><a href="{{ url('analitics') }}">ANÁLISES</a></li>
+                <li><a href="{{ url('yourself') }}">UTILIZAÇÃO</a></li>
             </ul>
         </div>
     </div>
 </nav>
-
-<section id="portfolio">
+@yield('content')
+<!-- end navigation -->
+<!-- start copyright -->
+<footer id="copyright">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">ENTENDIMENTO DO BANCO <span> AERIALS</span></h2>
-            </div>
-            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="media">
-                    <div class="media-body">
-                        <p>O banco...</p>
-                    </div>
-                </div>
+            <div class="col-md-12 text-center">
+                <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
+                    Copyright &copy; 2017 Aerials by Amazing Analytics</p>
             </div>
         </div>
     </div>
-</section>
-<!-- end navigation -->
+</footer>
+<!-- end copyright -->
 </body>
 </html>

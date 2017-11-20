@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Aerials: Origem</title>
+    <title>@yield('title')</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
