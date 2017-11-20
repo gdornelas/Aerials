@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX:
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+%\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+
+
+\sloppy
+
+\title{Aerials: Análise de tráfego aéreo americano entre os anos de 2007 e 2008}
+
+\author{Gustavo C. Dornelas\inst{1}, Lucas C. Marques\inst{1}, Tomaz C. Guimarães\inst{1}, Vitor de O. F. Araujo\inst{1} }
+
+
+\address{Departamento de Ciência da Computação \\
+Universidade Federal do Rio de Janeiro (UFRJ)\\
+  Rio de Janeiro -- RJ -- Brasil
+  \email{gustavodornelas@ufrj.br, lucascm@ufrj.br,}
+  \email{tomazcuber@dcc.ufrj.br, vitor.araujo@ufrj.br}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Aerials is an open source project designed to analyze US flight traffic using a consistent database for querying and extracting information. The data stored includes various information about flights in the United States, as well as data on airplanes used, passengers on board, airports and airlines responsible for transhipment. To better visualize these data, we developed a web application that uses a graphical construction tool, offering users a clear interface for extracting information and analyzing results.
+\end{abstract}
+
+\begin{resumo}
+  Aerials é um projeto de código aberto destinado a análise do tráfego de vôo americano, utilizando um banco de dados consistente para consultas e extração de informações. Os dados armazenados compreendem diversas informações a cerca de vôos no território americano, além de dados sobre os aviões utilizados, os passageiros a bordo, aeroportos e linhas aéreas responsaveis pelo transbordo. Para melhor vizualização desses dados, desenvolveu-se uma aplicação web que utiliza uma ferramenta de construção gráficos, oferencedo aos usuários uma interface clara para extração de informações e análise de resultados.
+\end{resumo}
+
+
+\section{Introdução}
+
+No país que mais possui aviões em circulação no mundo, informações a cerca de todo esse tráfego de pessoas e serviços é fundamental para uma compreensão do mercado de aviação local. O projeto Aerials consiste na utilização de uma enorme base de dados a cerca de todo o tráfego aéreo americano compreendido entre os anos de 2007 e 2008 para obtenção de informações relevantes sobre esse setor.
+
+%\subsection{dados}
+
+A base de dados utilizada é aberta e ofercida pelo Departamento de Transportes dos Estados Unidos através do RITA, a biblioteca nacional de transportes. Os dados foram organizados em um banco de dados utilizando o MySQL, um sistema de gerenciamento de banco de dados (SGBD), que utiliza a linguagem SQL. O banco fora modelado de forma a tornar as consultas eficientes para melhor obtenção dos resultados a serem analisados. Com a construção desse banco consistente, foi possível realizar diversas consultas a essas dados de forma organizada, gerando resultados que podem ser analisados para melhoria de serviços, entendimento de fluxos de passageiros sob diferentes critérios, utilização de aeroportos e aviões, entre outros.
+
+%\subsection{aplicação web}
+
+Com isso, o projeto fora direcionado para o desenvolvimento de uma aplicação web para utilização do Aerials. A aplicação tem como objetivo fornecer uma interface de fácil utilização a qualquer usuário, para análise dos dados obtidos, sendo desenvolvida na linguagem PHP através de uma framework chamada Lumen, assim como HTML, CSS e Javascript para formação da estrutura e personalização do site.  A mesma compreende a explicação do projeto, bem como informações sobre a equipe de desenvolvimento, o banco utilizado e diversas pesquisas realizadas sobre a base de dados. Os resultados dessas pesquisas são oferecidos com a utilização de diferentes gráficos, assim como uma explicação sobre a mesma e a query utilizada para obter tal resultado.
+
+\section{O banco: Origem e modelagem}
+
+Lorem. Lorem. Lorem. Lorem. Lorem. Lorem. Lorem. Lorem.
+
+\section{As consultas e resultados}
+
+Lorem. Lorem. Lorem. Lorem. Lorem. Lorem. Lorem. Lorem.
+
+\section{A aplicação web}
+
+A aplicação web fora desenvolvida para que o usuário pudesse ter acesso ao projeto e seus resultados de forma fácil e intuitiva. Através das tecnologias web tais como HTML, CSS e Javascript, a interface possui diversos elementos dinâmicos para fácil navegação pelo site, além de efeitos de movimento para oferecer uma sensação de fluidez. O design do mesmo fora baseado em um layout gratuito, o Awesome Template, que é licenciado de acordo com a Creative Commons Attribution 4.0 International License. Para confecção dos elementos visuais, bibliotecas como o Jquery e o Bootstrap foram largamente utilizadas. Para a construção do sistema, utilizou-se a linguagem PHP, através da framwork Lumen, que auxilia na construção de rotas para as páginas do site, além da manutenção do template. O SGBD utilizado para  foi o MySQL e o Graph.JS foi a framework utilizada para a confecção dos gráficos.
+
+%\subsection{site}
+
+O site é composto por quatro páginas, home, origem, banco e análise. A página home é a local de entrada na plataforma, possuindo uma leve aprensetação do site e uma navegação dinâmica pela seu conteúdo, permitindo o usuário se direcionar de acordo com seu interesse. A mesma é dividida em pequenas sessões que contém informações básicas sobre o projeto, a equipe, o banco e suas aplicações, onde uma dessas sessões possui links para as outras páginas do site, além de uma breve descrição sobre as mesmas. A página origem é a primeira opção de direcionamento do usuário, contendo informações mais detalhadas sobre o projeto e principalemete sobre a base de dados utilizada. A página banco contém informações detalhadas sobre a modelagem proposta para a base de dados, com o seu diagrama relacional, permitindo o usuário a entender a estrutura do mesmo para sua utilização e interpretação. Por último, a página análise contém os resultados obtidos com as consultas no banco. Ela lista cada uma das pesquisas realizadas, apresentando seu resultado visualmente a partir de um gráfico, além de uma breve explicação por texto sobre o mesmo e a query em SQL utilizada para sua obtenção.
+
+\section{Conclusão}
+
+O projeto Aerials possui um grande potencial, onde ele evidência o poder de uma base de dados consistente sobre um determinado assunto. A quantidade de informações que podem ser extraídas de um banco de tamanha magnitude podem ser fundamentais para definições sobre o futuro, seja qual for a área de atuação, desde que esse banco possua um tratamento adequado desde a sua modelagem ate a sua manutenção. Os resultados obtivos foram satisfatórios e atenderam as expectativas, oferecendo grande aprendizagem aos membros dos projeto e a possibilidade de sua continuação no futuro.
+
+\subsection{Participação dos membros}
+.
+
+%\subsection{1}
+
+Gustavo Carmo Dornelas: definição do banco, escrita do relatório, confecção do relatório segundo template, criação da aplicação web (interface e sistema) com implementação da API de gráficos.
+
+%\subsection{2}
+
+Lucas Cordeiro Marques:
+
+%\subsection{3}
+
+Tomaz Cuber Guimarães:
+
+%\subsection{4}
+
+Vitor de Oliveira Fernandez Araujo:
+
+\section{Referências}
+
+Bibliographic references must be unambiguous and uniform.  We recommend giving
+the author names references in brackets, e.g. \cite{knuth:84},
+\cite{boulic:91}, and \cite{smith:99}.
+
+The references must be listed using 12 point font size, with 6 points of space
+before each reference. The first line of each reference should not be
+indented, while the subsequent should be indented by 0.5 cm.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}
