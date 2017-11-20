@@ -1,7 +1,8 @@
+@extends('footer')
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Awesome Responsive Template</title>
+    <title>Aerials! Análise de tráfego aéreo.</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -233,19 +234,5 @@
     </div>
 </section>
 <!-- end portfolio -->
-
-<!-- start copyright -->
-<footer id="copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">
-                    Copyright &copy; 2017 Aerials by Amazing Analytics</p>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- end copyright -->
-
 </body>
 </html>
