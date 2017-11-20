@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Faker\Factory as Faker;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call('UsersTableSeeder');
+        $faker = Faker::create();
+
+        for ($i=0; $i < 10; $i++) { 
+        	app('db')->insert('insert into passageiro values ('."\"".strval($faker->randomNumber($nbDigits = 9, $strict = true))."\",\"".$faker->name."\");");
+        }
     }
 }
