@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="../public/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../public/css/templatemo-style.css">
+    <script src="../public/js/jquery-3.2.1.js"></script>
     <script src="../public/js/jquery.js"></script>
     <script src="../public/js/bootstrap.min.js"></script>
     <script src="../public/js/jquery.singlePageNav.min.js"></script>
     <script src="../public/js/typed.js"></script>
     <script src="../public/js/wow.min.js"></script>
     <script src="../public/js/custom.js"></script>
+    <script src="../public/js/Chart.min.js"></script>
 </head>
 <body id="top">
 
@@ -62,6 +64,36 @@
 </nav>
 @yield('content')
 <!-- end navigation -->
+<!-- start stuff -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                <canvas id="myChart"></canvas>
+                <script>
+                    var myChart = document.getElementById('myChart').getContext('2d');
+
+                    var chart1 = new Chart(myChart, {
+                        type: 'bar',
+                        data: {
+                            labels:['Bahia', 'Jaime', 'Poderosa'],
+                            datasets:[{
+                                label:'Coisas',
+                                data:[
+                                    100,
+                                    50,
+                                    75
+                                ],
+                                backgroundColor:'green'
+                            }]
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end stuff -->
 <!-- start copyright -->
 <footer id="copyright">
     <div class="container">
