@@ -54,7 +54,6 @@
                 <li><a href="#about">SOBRE</a></li>
                 <li><a href="#team">EQUIPE</a></li>
                 <li><a href="#service">O PROJETO</a></li>
-                <li><a href="#portfolio">UTILIZAÇÃO</a></li>
             </ul>
         </div>
     </div>
@@ -109,7 +108,7 @@
                     </div>
                     <div class="media-body">
                         <p>Graças ao um banco extremamente grande e completo, Aerials consegue obter resultados significativos em suas buscas, permitindo análise de diversos fatores
-                        do sistema áereo internacional.</p>
+                            do sistema áereo internacional.</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +122,7 @@
                     </div>
                     <div class="media-body">
                         <p>Através de gráficos e mapas, Aerials consegue fornecer o resultados das buscas no banco de forma intuitiva e de fácil interpretação, permitindo uma análise
-                        sucinta acerca das possibilidades de utilização.</p>
+                            sucinta acerca das possibilidades de utilização.</p>
                     </div>
                 </div>
             </div>
@@ -141,7 +140,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
                 <div class="team-wrapper">
-                    <img src="images/team-img1.jpg" class="img-responsive" alt="team img 1">
+                    <img src="Images/team-img1.jpg" class="img-responsive" alt="team img 1">
                     <div class="team-des">
                         <h4>GUSTAVO DORNELAS</h4>
                         <span>Computer Scientist</span>
@@ -151,7 +150,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
                 <div class="team-wrapper">
-                    <img src="images/team-img2.jpg" class="img-responsive" alt="team img 2">
+                    <img src="Images/team-img2.jpg" class="img-responsive" alt="team img 2">
                     <div class="team-des">
                         <h4>LUCAS CORDEIRO</h4>
                         <span>Computer Scientist</span>
@@ -161,7 +160,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.3s">
                 <div class="team-wrapper">
-                    <img src="images/team-img3.jpg" class="img-responsive" alt="team img 3">
+                    <img src="Images/team-img3.jpg" class="img-responsive" alt="team img 3">
                     <div class="team-des">
                         <h4>THOMAZ CUBER</h4>
                         <span>Computer Scientist</span>
@@ -171,7 +170,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="1.6s">
                 <div class="team-wrapper">
-                    <img src="images/team-img4.jpg" class="img-responsive" alt="team img 4">
+                    <img src="Images/team-img4.jpg" class="img-responsive" alt="team img 4">
                     <div class="team-des">
                         <h4>VITOR ARAUJO</h4>
                         <span>Random Dude</span>
@@ -198,7 +197,7 @@
             </div>
             <div class="col-md-4 active wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">
                 <i class="fa fa-cloud"></i>
-                <h4><a href="{{ url('understanding') }}">Entendimento</a></h4>
+                <h4><a href="{{ url('origin') }}">Entendimento</a></h4>
                 <p>Entenda melhor a organização do banco através de diagramas entidade-relacionamento (ER) e modelos lógicos.</p>
             </div>
             <div class="col-md-4 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
@@ -209,30 +208,7 @@
         </div>
     </div>
 </section>
-<!-- end servie -->
-
-<!-- start portfolio -->
-<section id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">UTILIZE<span> AERIALS</span></h2>
-            </div>
-            <div class="col-md-4 offset-md-4 col-sm-4 offset-sm-4 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.6s">
-                <div class="media">
-                    <div class="media-heading-wrapper">
-                        <h3 class="media-heading">SEJA VOCÊ MESMO O ANALISTA</h3>
-                    </div>
-                    <div class="media-body">
-                        <p>Descubra a informação que precisa! Utilize nosso banco para fazer suas pesquisas diretamente através de linguagem SQL!
-                            Monte gráficos usandos as informações pesquisadas e analise os resultados.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end portfolio -->
+<!-- end service -->
 <!-- start copyright -->
 <footer id="copyright">
     <div class="container">

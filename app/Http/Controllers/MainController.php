@@ -13,7 +13,7 @@ class MainController extends Controller
 
     public function homepage()
     {
-        return view('home');
+        return view('main');
     }
 
     public function origin()
@@ -33,9 +33,4 @@ class MainController extends Controller
         return view('analitics');
     }
 
-
-    public function furry()
-    {
-        return view('furry');
-    }
 }

@@ -57,13 +57,29 @@
                 <li><a href="{{ url('origin') }}">SOBRE</a></li>
                 <li><a href="{{ url('understanding') }}">O BANCO</a></li>
                 <li><a href="{{ url('analitics') }}">ANÁLISES</a></li>
-                <li><a href="{{ url('yourself') }}">UTILIZAÇÃO</a></li>
             </ul>
         </div>
     </div>
 </nav>
 @yield('content')
 <!-- end navigation -->
+<!-- start service -->
+<section id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">AS ANÁLISES <span>AERIALS</span></h2>
+            </div>
+            <div class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                <p>
+                    Abaixo, temos alguns exemplos de consultas utilizando a plataforma Aerials, mostrando o seus resultados
+                    e suas possíveis interpretações, permitindo a obtenção de informações importantes a serem analisadas sobre a situação de vôo:
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end service -->
 <!-- start stuff -->
 <section id="portfolio">
     <div class="container">

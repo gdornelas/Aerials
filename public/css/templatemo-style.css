@@ -199,6 +199,10 @@ header .social-icon li a
 	left: 0;
 	top: 0;	
 }
+.sticky1 {
+	position: fixed;
+	top: 0;
+}
 /* end navigation */
 
 /* start home */
@@ -335,14 +339,6 @@ header .social-icon li a
 		padding-top: 10px;
 		padding-bottom: 14px;
 	}
-
-.linker
-{
-	color: #28a7e9;
-	font-weight: 600;
-	padding-top: 10px;
-	padding-bottom: 14px;
-}
 /* end service */
 
 /* start portfolio */
@@ -556,6 +552,7 @@ header .social-icon li a
 		{
 			font-size: 52px;
 		}
+
 	.templatemo-nav {
 		position: fixed;
     	top: 0;

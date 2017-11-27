@@ -53,15 +53,64 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ url('home') }}">INÍCIO</a></li>
                 <li><a href="{{ url('origin') }}">SOBRE</a></li>
-                <li><a href="{{ url('understanding') }}">O BANCO</a></li>
                 <li><a href="{{ url('analitics') }}">ANÁLISES</a></li>
-                <li><a href="{{ url('yourself') }}">UTILIZAÇÃO</a></li>
             </ul>
         </div>
     </div>
 </nav>
-@yield('content')
 <!-- end navigation -->
+<!-- start service -->
+<section id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">O PROJETO <span>AERIALS</span></h2>
+            </div>
+            <div class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                <p>Aerials utiliza uma base de dados utilizada é aberta, que é oferecida pelo Departamento de Transportes
+                    dos Estados Unidos através do RITA, a biblioteca nacional de transportes.
+
+                    Os dados de vôos, assim como os aviões, aeroportos, com exceção dos dados de passageiros, foram
+                    todos obtidos do conjunto de dados presente no site
+                    do departamento. Os passageiros foram gerados a partir de um script, para atender as necessidades de buscas.
+                </p>
+                <p>
+                    A base em questão apresenta dados que vão desde
+                    o ano de 1987 até 2008. Isso representa um volume de dados com mais de 10 milhões de
+                    registros.
+                    No momento, a plataforma utiliza apenas uma parcela dos vôos
+                    dos anos de 2007 e 2008. Ao todo,
+                    estamos trabalhando com cerca de 15000 registros de vôos, efetuados por mais de 4000
+                    aeronaves, entre mais de 3000 aeroportos do território americano.
+                </p>
+                <p>Para ter acessos direto aos dados pelo site do Dpartamento de Transportes americano, <a href="http://stat-computing.org/dataexpo/2009/the-data.html">clique neste link</a>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end service -->
+<!-- start service -->
+<section id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">O BANCO <span>AERIALS</span></h2>
+            </div>
+            <div class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
+                <p>A modelagem foi organizada de maneira a atender os requisitos do trabalho, assim
+                    como fornecer uma base que possibilitasse consultas úteis, com facilidade. O conjunto
+                    de dados de voos apresentava, originalmente, muito mais dados do que os que optamos
+                    por utilizar na modelagem, já que não havia necessidade dos mesmos, e estes fariam o
+                    tamanho do banco crescer consideravelmente. A modelagem, no formato de diagrama
+                    ER, apresenta-se abaixo:
+                </p>
+                <br>
+                <img src="Images/aeroporto.png" class="img-responsive wow bounceIn" alt="team img 1">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end service -->
 <!-- start copyright -->
 <footer id="copyright">
     <div class="container">
