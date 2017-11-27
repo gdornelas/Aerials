@@ -144,7 +144,6 @@
                     <div class="team-des">
                         <h4>GUSTAVO DORNELAS</h4>
                         <span>Computer Scientist</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +153,6 @@
                     <div class="team-des">
                         <h4>LUCAS CORDEIRO</h4>
                         <span>Computer Scientist</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
             </div>
@@ -164,7 +162,6 @@
                     <div class="team-des">
                         <h4>THOMAZ CUBER</h4>
                         <span>Computer Scientist</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
             </div>
@@ -174,7 +171,6 @@
                     <div class="team-des">
                         <h4>VITOR ARAUJO</h4>
                         <span>Random Dude</span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
                     </div>
                 </div>
             </div>
